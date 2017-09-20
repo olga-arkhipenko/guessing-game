@@ -19,11 +19,11 @@ class GuessingGame {
     }
 
     lower() {
-        this.max = Math.ceil((this.max-this.min)/2 + this.min);
+        this.max = this.curVal;
     }
 
     greater() {
-        this.min = Math.ceil((this.max-this.min)/2 + this.min);
+        this.min = this.curVal;
     }
 }
 
